@@ -1,12 +1,26 @@
 #include "main.h"
-
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * print_alphabet_x10 - entry point
+ * Description: a function that prints 10 times the alphabet,
+ * in lowercase followed by a new line
+ * Return: void
  */
-int main(void)
+
+void print_alphabet_x10(void)
 {
-    print_alphabet_x10();
-    return (0);
+	int x = 1;
+
+	while (x <= 10)
+	{
+		char letter = 'a';
+
+		while (letter <= 'z')
+		{
+			_putchar(letter);
+			letter++;
+		}
+		_putchar('\n');
+		x++;
+	}
 }
+
