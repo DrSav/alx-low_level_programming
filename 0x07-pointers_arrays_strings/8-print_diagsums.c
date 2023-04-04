@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
   * print_diagsums - prints the sum of two diagonals of a square matrix
   * of integers
